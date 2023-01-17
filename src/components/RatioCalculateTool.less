@@ -1,3 +1,68 @@
-.RatioCalculateTool-mainContainer{
-    background-color: aquamarine; 
+.RatioCalculateTool-mainContainer {
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+
+    .github-icon {
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        cursor: pointer;
+    }
+
+    &>div {
+        margin-top: 20px;
+    }
+
+    // 快捷识别
+    .RatioCalculateTool-recognition {}
+
+    // 快捷复制
+    .RatioCalculateTool-copy {}
+
+    // 主体盒子 
+    .RatioCalculateTool-contentBox {
+        width: 100%;
+        min-height: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+        .RatioCalculateTool-left,
+        .RatioCalculateTool-right {
+            &>div {
+                margin: 20px 0;
+            }
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            flex: 4;
+            border: 3px solid rgba(58, 140, 233, 0.562);
+        }
+
+        .RatioCalculateTool-center {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex: 2;
+
+            div {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .RatioCalculateTool-mainContainer {
+        width: 800px;
+    }
 }
