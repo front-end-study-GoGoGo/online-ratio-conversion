@@ -1,7 +1,7 @@
 import React from 'react';
 import type { FC } from 'react';
-import { Button } from 'antd';
-import './RatioCalculateTool.css';
+// import { Button } from 'antd';
+import './RatioCalculateTool.less';
 
 const RatioCalculateTool: FC = () => {
     return (

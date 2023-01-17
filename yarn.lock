@@ -8536,6 +8536,14 @@
     "klona" "^2.0.4"
     "neo-async" "^2.6.2"
 
+"sass-loader@^13.2.0":
+  "integrity" "sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg=="
+  "resolved" "https://registry.npmmirror.com/sass-loader/-/sass-loader-13.2.0.tgz"
+  "version" "13.2.0"
+  dependencies:
+    "klona" "^2.0.4"
+    "neo-async" "^2.6.2"
+
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
   "resolved" "https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz"

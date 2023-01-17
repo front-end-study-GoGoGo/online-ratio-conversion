@@ -1,6 +1,5 @@
 import React from 'react';
 import type { FC } from 'react';
-import { Button } from 'antd';
 import RatioCalculateTool from './components/RatioCalculateTool.tsx'
 import './App.css';
 
