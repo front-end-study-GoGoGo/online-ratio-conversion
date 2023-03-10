@@ -17,7 +17,7 @@ const layout = {
 const RatioCalculateTool: FC = () => {
     const [awaitConvertValueList, setAwaitConvertValueList] = useState([0, 0, 0]); // 待转换数值列表
     const [convertValueList, setConvertValueList] = useState([0, 0, 0]); // 已转换数值列表
-    const [conversionRateValue, setConversionRateValue] = useState<number>(2); // 转换数值
+    const [conversionRateValue, setConversionRateValue] = useState<number>(0.5); // 转换数值
     const [recognitionValue, setRecognitionValue] = useState(''); // 快捷识别数值 
     const [copyValue, setCopyValue] = useState(''); // 快捷复制数值 
     const [messageApi, contextHolder] = message.useMessage();
