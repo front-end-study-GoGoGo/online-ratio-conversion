@@ -1,9 +1,8 @@
 import React from 'react';
-import type { FC } from 'react';
-import RatioCalculateTool from './components/RatioCalculateTool.tsx'
-import './App.css';
+import RatioCalculateTool from './components/RatioCalculateTool'
+import './App.less';
 
-const App: FC = () => {
+const App: React.FC = () => {
   return (
     <div className="App">
       <h3>同比增减在线换算工具</h3>
